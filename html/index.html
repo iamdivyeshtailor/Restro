@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Restro</title>
+</head>
+<style>
+    .responsive{
+      width: 100%;
+      height:auto;
+    }
+  </style>
+<body>
+  <h1><a style="color: black;" href="/html/index.html">RESTRO</a></h1><hr>
+
+  
+<!--sidebar-->
+    <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      }
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+<!--sidebar-->
+
+<div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="container signin">
+        <p><a href="/html/sign-in.html">Sign_in</a></p>
+      </div>
+      <hr>
+      <div class="container signin">
+        <p><a href="/html/sign-up.html">Sign_up</a></p>
+      </div>
+      <hr>
+      <div class="container signin">
+      <p><a href="/html/guest-login.html">Guest_login</a></p>
+      </div>
+      </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+<!-- Search Bar -->
+
+<!-- Load icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+  <form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+<!-- Search Bar -->
+
+
+<img src="/images/bomxr-bar-7547-hor-clsc.jpg" alt="" class="responsive" width="600" height="400">
+
+<div>
+<h2><a style="color: black;" href="/html/todays-special.html">Today's Special</a></h2>
+<h2><a style="color: black;" href="/html/main-course.html">Main Course</a></h2>
+<h2><a style="color: black;" href="/html/custom.html">Custom</a></h2>
+</div>
+    
+</body>
+</html>
